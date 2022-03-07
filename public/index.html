@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Ably JWT Authentication with Netlify</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ably/1.2.17/ably.min.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="ably-logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <a href="https://ably.com/" target="_blank">
+          <img src="ably-logo.svg" alt="Ably logo"
+        /></a>
+
+        <h1>
+          Ably JWT Authentication <br />
+          using Netlify Identity and <br />
+          serverless functions
+        </h1>
+
+        <div data-netlify-identity-menu></div>
+
+        <span class="container">
+          <button onclick="go(this)">authenticate</button>
+          <strong class="message"></strong>
+        </span>
+      </div>
+    </main>
+
+    <section></section>
+
+    <script src="script.js"></script>
+    <script src="identity.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+[dev]
+  framework="#static"
+
+[build]
+  publish="public/"
+
+[functions]
+  directory = "functions"
+  node_bundler = "esbuild"
