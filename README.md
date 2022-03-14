@@ -101,3 +101,4 @@ We have a [contributing guide](CONTRIBUTING.md) that explains how to contribute 
 
 ---
 
+![](https://static-asset-endpoint.herokuapp.com/badge-black.svg?netlify-indentity-jwt)
