@@ -73,6 +73,8 @@ label {
 a {
   color: red;
   font-weight: 700;
+  white-space: nowrap;
+  margin: 0 0 0 2rem;
 }
 
 .container {
